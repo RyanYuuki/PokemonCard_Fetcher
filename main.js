@@ -16,42 +16,42 @@ async function fetchData()
     hpElmt.innerHTML = `HP<span>${Data.stats[0].base_stat}</span>`;
     if(Data.types[0].type.name == "Wind")
     {
-        pokemonTypeElmt.style.color = "orangered";
+        pokemonTypeElmt.style.background = "orangered";
         curveElmt.style.background = "orangered";     
     }
     if(Data.types[0].type.name == "grass" || Data.types[0].type.name == "bug") {
-        pokemonTypeElmt.style.color = "lightgreen";
+        pokemonTypeElmt.style.background = "lightgreen";
         curveElmt.style.background = "lightgreen";
     }
     if(Data.types[0].type.name == "fire") {
-        pokemonTypeElmt.style.color = "tomato";
+        pokemonTypeElmt.style.background = "tomato";
         curveElmt.style.background = "tomato";
     }
     if(Data.types[0].type.name == "water") {
-        pokemonTypeElmt.style.color = "lightblue";
+        pokemonTypeElmt.style.background = "lightblue";
         curveElmt.style.background = "lightblue";
     }
     if(Data.types[0].type.name == "electric") {
-        pokemonTypeElmt.style.color = "yellow";
+        pokemonTypeElmt.style.background = "yellow";
         curveElmt.style.background = "yellow";
     }
     if(Data.types[0].type.name == "ghost" || Data.types[0].type.name == "psychic")
     {
-        pokemonTypeElmt.style.color = "purple"; 
+        pokemonTypeElmt.style.background = "purple"; 
         curveElmt.style.background = "purple";
     }
     if(Data.types[0].type.name == "dragon" || Data.types[0].type.name == "dark")
     {
-        pokemonTypeElmt.style.color = "black"; 
+        pokemonTypeElmt.style.background = "black"; 
         curveElmt.style.background = "black";
     }
     if(Data.types[0].type.name == "ground" || Data.types[0].type.name == "rock" || Data.types[0].type.name == "normal")
     {
-        pokemonTypeElmt.style.color = "lightsalmon"; 
+        pokemonTypeElmt.style.background = "lightsalmon"; 
         curveElmt.style.background = "lightsalmon";
     }
     if(Data.types[0].type.name == "steel") {
-        pokemonTypeElmt.style.color = "grey"; 
+        pokemonTypeElmt.style.background = "grey"; 
         curveElmt.style.background = "grey";
     }
     for(let x = 1; x < 4; x++)

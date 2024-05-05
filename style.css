@@ -109,3 +109,8 @@ body {
 .Generate:active {
     transform: scale(0.9);
 }
+
+.Type {
+    padding: 5px 20px;
+    border-radius: 20px;
+}
